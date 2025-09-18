@@ -96,7 +96,9 @@ A repository for research, implementation, and best practices with Gradient Boos
 
 ## Comparative Table: GBM vs XGBoost vs LightGBM
 
-| Feature | GBM [^7][^1] | XGBoost [^7][^2] | LightGBM [^7][^5] |
+<br>
+
+| Feature | GBM  | XGBoost  | LightGBM  |
 | :-- | :-- | :-- | :-- |
 | Speed | Slower | Fast | Very Fast |
 | Scalability | Limited | Good | Excellent |
