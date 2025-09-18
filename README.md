@@ -202,7 +202,7 @@ $$
 
 <br>
 
-### where $w_i\$ prioritizes rare/default cases.
+### where $\Huge w_i\$ prioritizes rare/default cases.
 
 
 <br>
@@ -252,7 +252,7 @@ $$
 
 <br><br>
 
-### where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and \$\delta \in \$ random.
+ where $\mathbf{x}_i\$ is a minority instance, $\Huge \mathbf{x}_{nn}$ a neighbor, and $\Huge \delta \in\$ random.
 
 <br>
 
