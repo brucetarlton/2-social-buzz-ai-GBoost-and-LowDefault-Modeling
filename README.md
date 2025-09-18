@@ -134,11 +134,11 @@ $$
 <br><br>
 
 
-- ${m}(x)\$: Prediction after m steps
+- $\Huge {m}(x)\$: Prediction after m steps
 
-- \$ h_{m}(x) \$: Weak learner/tree at step m
+- $h_{m}(x)\$: Weak learner/tree at step m
 
-- \$ \alpha \$: Learning rate
+- $\alpha\$: Learning rate
 
 <br><br>
 
