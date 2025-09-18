@@ -255,7 +255,13 @@ $$
  where $\mathbf{x}_i\$ is a minority instance, $\Huge \mathbf{x}_{nn}$ a neighbor, and $\Huge \delta \in\$ random.
 
 
- where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and $\delta \in\$ random.
+ where $\ mathbf{x}_i\$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and $\delta \in\$ random.
+
+ Where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and
+$$ \delta \in \mathbb{R} $$
+is a random value.
+
+Where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and $\delta \in \mathbb{R}$ is a random value.
 
 <br>
 
