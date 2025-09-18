@@ -208,17 +208,17 @@ $$
 
 ### Advantages
 
-- Superior for tabular, unstructured, or highly imbalanced data[^2][^7]
-- Extremely robust, fast, and captures complex data patterns[^2][^7]
-- Enables cross-validation and advanced tuning options[^7][^2]
+- Superior for tabular, unstructured, or highly imbalanced data
+- Extremely robust, fast, and captures complex data patterns
+- Enables cross-validation and advanced tuning options
 
 <br>
 
 ### Disadvantages
 
-- Needs some positive/default event cases to operate[^7]
-- If event rate <<0.1%, may not suffice alone[^7]
-- May overfit if weights are extreme and not tuned with care[^7]
+- Needs some positive/default event cases to operate
+- If event rate <<0.1%, may not suffice alone
+- May overfit if weights are extreme and not tuned with care
 
 <br><br>
 
@@ -232,9 +232,9 @@ LightGBM uses leaf-wise growth rather than level-wise, dramatically increasing p
 
 ## SMOTE + Random Forest for Low Default
 
-- **SMOTE:** Synthesizes extra default (minority class) data using nearest neighbors, sharply balancing class ratios[^7]
-- **Random Forest:** Trains on synthetic-balanced data, offering stability and high robustness under correlation and noise[^7]
-- **Prediction:** Final RF model is applied to the real input features for risk prediction[^7]
+- **SMOTE:** Synthesizes extra default (minority class) data using nearest neighbors, sharply balancing class ratios
+- **Random Forest:** Trains on synthetic-balanced data, offering stability and high robustness under correlation and noise
+- **Prediction:** Final RF model is applied to the real input features for risk prediction
 
 
 
@@ -250,7 +250,7 @@ $$
 
 <br><br>
 
-### where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and \$\delta \in \$ random.[^1][^7]
+### where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and \$\delta \in \$ random.
 
 <br>
 
@@ -260,22 +260,22 @@ $$
 
 **Advantages**
 
-- Directly fixes imbalance by creating synthetic defaults[^7]
-- RF is robust to feature noise and correlation[^2][^7]
-- Practical, easy, and works well in most real low-default cases[^7]
+- Directly fixes imbalance by creating synthetic defaults
+- RF is robust to feature noise and correlation
+- Practical, easy, and works well in most real low-default cases
 
 **Disadvantages**
 
-- Synthetic data may cause overfitting or be unrealistic with very rare events[^7]
-- Not effective when only 2-3 true defaults exist[^7]
-- The synthetic process can distort the target distribution[^7]
+- Synthetic data may cause overfitting or be unrealistic with very rare events
+- Not effective when only 2-3 true defaults exist
+- The synthetic process can distort the target distribution
 
 <br>
 
 ## Modeling Strategies for Extreme Imbalance
 
 - Combine sampling (SMOTE), weighting, and boosting for best results in low-default settings
-- Use cross-validation and specialized metrics (ROC, recall, F1) to monitor real performance on rare-event detection[^6][^7]
+- Use cross-validation and specialized metrics (ROC, recall, F1) to monitor real performance on rare-event detection
 
 <br><br>
 
