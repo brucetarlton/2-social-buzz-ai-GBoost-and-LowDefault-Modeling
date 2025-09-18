@@ -254,6 +254,9 @@ $$
 
  where $\mathbf{x}_i\$ is a minority instance, $\Huge \mathbf{x}_{nn}$ a neighbor, and $\Huge \delta \in\$ random.
 
+
+ where $\mathbf{x}_i$ is a minority instance, $\mathbf{x}_{nn}$ a neighbor, and $\delta \in\$ random.
+
 <br>
 
 ### SMOTE + RF: Pros and Cons
