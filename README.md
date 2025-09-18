@@ -113,10 +113,52 @@ A repository for research, implementation, and best practices with Gradient Boos
 
 ## H2O Library for AutoML
 
-H2O’s AutoML library runs a range of boosting, tree, and ensemble algorithms automatically, evaluating each under the same time and resource conditions, and selects the model with the best metrics. It supports advanced hyperparameter optimization and robust interpretability, highly effective for business and credit risk scenarios.[^5][^7]
+H2O’s AutoML library runs a range of boosting, tree, and ensemble algorithms automatically, evaluating each under the same time and resource conditions, and selects the model with the best metrics. It supports advanced hyperparameter optimization and robust interpretability, highly effective for business and credit risk scenarios.
 
 <br><br>
 
 ## Gradient Boosting Algorithm Explained
 
 Gradient Boosting builds an ensemble by sequentially fitting new trees to the residuals (prediction errors) of previous trees. The ensemble learning objective is:
+
+
+<br><br>
+
+
+$$
+F_{m}(x) = F_{m-1}(x) + \alpha h_{m}(x)
+$$
+
+
+<br><br>
+
+
+- \$ F_{m}(x) \$: Prediction after m steps
+
+- \$ h_{m}(x) \$: Weak learner/tree at step m
+
+- \$ \alpha \$: Learning rate
+
+<br><br>
+
+At each step, a tree is fitted to minimize the gradient (loss function):
+
+<br><br>
+
+$$
+w := w - \alpha \nabla J(w)
+$$
+
+<br><br>
+
+
+### Stepwise GBM Flow
+
+1. Begin with an initial prediction (mean, median, etc.)
+2. Calculate residuals for all predictions
+3. Fit a new tree to these residuals
+4. Update aggregate predictions with controlled learning rate
+5. Repeat until required accuracy or maximum trees
+
+
+
