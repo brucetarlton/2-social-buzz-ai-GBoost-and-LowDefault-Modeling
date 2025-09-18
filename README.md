@@ -169,7 +169,7 @@ $$
 
 ## Strengths and Weaknesses
 
-<br><br>
+<br>
 
 ### Strengths
 
@@ -186,3 +186,46 @@ $$
 
 
 <br><br>
+
+
+## XGBoost with Balanced Weights
+
+XGBoost enhances GBM by aggressive optimization, parallel processing, and support for imbalanced data with the `scale_pos_weight` parameter. Weighted loss function example:
+
+<br>
+
+$$
+Loss = \sum_{i=1}^{N} w_i \cdot l(y_i, f(x_i))
+$$
+
+
+<br>
+
+### where \$ w_i \$ prioritizes rare/default cases.
+
+
+<br>
+
+### Advantages
+
+- Superior for tabular, unstructured, or highly imbalanced data[^2][^7]
+- Extremely robust, fast, and captures complex data patterns[^2][^7]
+- Enables cross-validation and advanced tuning options[^7][^2]
+
+<br>
+
+### Disadvantages
+
+- Needs some positive/default event cases to operate[^7]
+- If event rate <<0.1%, may not suffice alone[^7]
+- May overfit if weights are extreme and not tuned with care[^7]
+
+<br><br>
+
+
+## LightGBM and Leaf-wise Boosting
+
+LightGBM uses leaf-wise growth rather than level-wise, dramatically increasing performance on very large, multi-feature datasets. It retains speed even as data size scales into the millions of rows.
+
+<br><br>
+
