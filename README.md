@@ -279,3 +279,25 @@ $$
 
 <br><br>
 
+## Reference
+
+
+[1](): https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2013.00021/full
+
+[2](): http://uc-r.github.io/gbm_regression
+
+
+[4](): https://www.digitalocean.com/community/tutorials/gradient-boosting-for-classification
+
+[5](): https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
+
+[6](): https://www.geeksforgeeks.org/machine-learning/ml-gradient-boosting/
+
+[7](): [GBoost TEDE - PUCSP]()
+
+<br><br>
+
+
+
+
+
