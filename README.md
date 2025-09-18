@@ -134,7 +134,7 @@ $$
 <br><br>
 
 
-- \$ F_{m}(x) \$: Prediction after m steps
+- ${m}(x)\$: Prediction after m steps
 
 - \$ h_{m}(x) \$: Weak learner/tree at step m
 
@@ -195,6 +195,7 @@ XGBoost enhances GBM by aggressive optimization, parallel processing, and suppor
 <br>
 
 $$
+\Huge
 Loss = \sum_{i=1}^{N} w_i \cdot l(y_i, f(x_i))
 $$
 
@@ -245,6 +246,7 @@ Synthetic instance generation:
 <br><br>
 
 $$
+\Huge
 \mathbf{x}_{\text{new}} = \mathbf{x}_i + \delta \cdot (\mathbf{x}_{nn} - \mathbf{x}_i)
 $$
 
@@ -256,13 +258,15 @@ $$
 
 ### SMOTE + RF: Pros and Cons
 
-
+<br>
 
 **Advantages**
 
 - Directly fixes imbalance by creating synthetic defaults
 - RF is robust to feature noise and correlation
 - Practical, easy, and works well in most real low-default cases
+
+<br>
 
 **Disadvantages**
 
