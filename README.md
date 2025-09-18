@@ -126,6 +126,7 @@ Gradient Boosting builds an ensemble by sequentially fitting new trees to the re
 
 
 $$
+\Huge
 F_{m}(x) = F_{m-1}(x) + \alpha h_{m}(x)
 $$
 
@@ -143,9 +144,11 @@ $$
 
 At each step, a tree is fitted to minimize the gradient (loss function):
 
+
 <br><br>
 
 $$
+\Huge
 w := w - \alpha \nabla J(w)
 $$
 
@@ -161,4 +164,4 @@ $$
 5. Repeat until required accuracy or maximum trees
 
 
-
+<br><br>
