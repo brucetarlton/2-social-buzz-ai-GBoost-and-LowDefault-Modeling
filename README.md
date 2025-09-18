@@ -250,12 +250,18 @@ $$
 \mathbf{x}_{\text{new}} = \mathbf{x}_i + \delta \cdot (\mathbf{x}_{nn} - \mathbf{x}_i)
 $$
 
+
 <br><br>
 
+ 
+<!-- 
  where $\mathbf{x}_i\$ is a minority instance, $\Huge \mathbf{x}_{nn}$ a neighbor, and $\Huge \delta \in\$ random.
+-->
 
 
-where $\mathbf{x}_{i}$ is a minority instance, $\mathbf{x}_{\text{nn}}$ a neighbor, and $\delta \in \text{random}$.
+### [Where]():  `x_i` is a minority instance, `x_nn` a neighbor, and `δ ∈ random`
+
+
 
 
 <br>
