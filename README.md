@@ -201,7 +201,7 @@ $$
 
 <br>
 
-### where \$ w_i \$ prioritizes rare/default cases.
+### where $w_i\$ prioritizes rare/default cases.
 
 
 <br>
