@@ -165,3 +165,24 @@ $$
 
 
 <br><br>
+
+
+## Strengths and Weaknesses
+
+<br><br>
+
+### Strengths
+
+- **Accuracy:** Sequential error correction produces highly precise models
+- **Flexibility:** Can handle various data types, losses, and objectives
+- **Regularization:** Learning rate, subsampling, and tree depth reduce overfitting
+
+<br>
+
+### Weaknesses
+
+- **Training Time:** Slow for very large datasets
+- **Tuning Required:** Sensitive to learning rate, tree depth, and trees count
+
+
+<br><br>
