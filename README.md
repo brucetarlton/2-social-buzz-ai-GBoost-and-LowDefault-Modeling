@@ -57,6 +57,7 @@
 <!--End-->
 
 
+
 > [!TIP]
 >
 >
@@ -64,15 +65,14 @@
 >
 
 
-
-
+<br><br>
 
 
 # Gradient Boosting Machines and Low-Default Modeling
 
 A repository for research, implementation, and best practices with Gradient Boosting methods (GBM, XGBoost, LightGBM), H2O AutoML, and robust strategies for modeling extreme class imbalance ("Low Default") in data science for finance and risk.
 
-<br>
+<br><br>
 
 ## Table of Contents
 
@@ -84,4 +84,30 @@ A repository for research, implementation, and best practices with Gradient Boos
 - SMOTE + Random Forest for Low Default
 - Modeling Strategies for Extreme Imbalance
 
-<br>
+<br><br>
+
+
+## Comparative Table: GBM vs XGBoost vs LightGBM
+
+| Feature | GBM [^7][^1] | XGBoost [^7][^2] | LightGBM [^7][^5] |
+| :-- | :-- | :-- | :-- |
+| Speed | Slower | Fast | Very Fast |
+| Scalability | Limited | Good | Excellent |
+| Core Method | Sequential decision trees | Optimized, parallel boosting | Leaf-wise split boosting |
+| Memory Efficiency | Moderate | Sparse structure | High (big datasets) |
+| Best Use Cases | Small data, flexibility | Large, structured data | Extensive feature sets, millions records |
+| Handling Imbalanced Data | Needs weighting | `scale_pos_weight` | Parameter \& dataset-based |
+
+
+<br><br>
+
+
+## H2O Library for AutoML
+
+H2O’s AutoML library runs a range of boosting, tree, and ensemble algorithms automatically, evaluating each under the same time and resource conditions, and selects the model with the best metrics. It supports advanced hyperparameter optimization and robust interpretability, highly effective for business and credit risk scenarios.[^5][^7]
+
+<br><br>
+
+## Gradient Boosting Algorithm Explained
+
+Gradient Boosting builds an ensemble by sequentially fitting new trees to the residuals (prediction errors) of previous trees. The ensemble learning objective is:
