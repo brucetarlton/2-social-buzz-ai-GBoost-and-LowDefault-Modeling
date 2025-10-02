@@ -7,7 +7,11 @@
 
 <br>
 
-# <p align="center">  Social [Buzz AI]()
+# <p align="center">  Social [Buzz AI]() - Gradient Boosting Machines and Low-Default Modeling
+
+<br>
+
+A repository for research, implementation, and best practices with Gradient Boosting methods (GBM, XGBoost, LightGBM), H2O AutoML, and robust strategies for modeling extreme class imbalance ("Low Default") in data science for finance and risk.
 
 <br><br>
 
@@ -72,14 +76,10 @@
 >
 
  
-<br><br>
+<br><br><br>
 
 
-# Gradient Boosting Machines and Low-Default Modeling
-
-A repository for research, implementation, and best practices with Gradient Boosting methods (GBM, XGBoost, LightGBM), H2O AutoML, and robust strategies for modeling extreme class imbalance ("Low Default") in data science for finance and risk.
-
-<br><br>
+#
 
 ## Table of Contents
 
@@ -312,8 +312,6 @@ $$
 
 <br><br>
 
-
-<br>
 
 
 ## 💌 [Let the data flow... Ping Me !](mailto:fabicampanari@proton.me)
