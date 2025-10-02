@@ -65,7 +65,7 @@ A repository for research, implementation, and best practices with Gradient Boos
 
 > [!TIP]
 >
-> * [Access](): Workbook
+> * [Access](https://github.com/Mindful-AI-Assistants/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/blob/f699dd62c269f0d002615a9cecc7f0351fb4fb7c/Workbook_GBoost/GBoost.pdf): Workbook
 > 
 > * [Access](https://github.com/Mindful-AI-Assistants/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/blob/5e5dedeb27e2d3631464dc5aa07c93b311576a55/Code_GBM/GBM_.ipynb): 1- Code_GBM
 >
