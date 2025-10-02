@@ -72,7 +72,7 @@ A repository for research, implementation, and best practices with Gradient Boos
 > * [Access](https://github.com/Mindful-AI-Assistants/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/blob/5e5dedeb27e2d3631464dc5aa07c93b311576a55/Code_Low_Default_Models/Low_Default_Models.ipynb):  2-Code_Low_Default_Models
 >
 >
-> * [Access](https://github.com/Mindful-AI-Assistants/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/tree/5e5dedeb27e2d3631464dc5aa07c93b311576a55/Dataset_Low_DeFault):  Dataset Low_Default.csv
+> * [Access](https://github.com/Mindful-AI-Assistants/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/blob/5e5dedeb27e2d3631464dc5aa07c93b311576a55/Dataset_Low_DeFault/dataset_low_default.csv):  Dataset Low_Default.csv
 >
 
  
